@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Property Basic</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+
+        body {
+            height: 3000px;
+            background-image: url('https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+        }
+
+        .box:nth-child(1) {
+            background-color: red;
+            left: 10px;
+            top: 10px;
+        }
+
+        .box:nth-child(2) {
+            background-color: green;
+            left: 50px;
+            top: 50px;
+        }
+
+        .box:nth-child(3) {
+            background-color: blue;
+            left: 150px;
+            top: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
+
+</html>
